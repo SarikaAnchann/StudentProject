@@ -33,9 +33,9 @@ for(int i=1;i<=num;i++) {
 				 System.out.println("please enter the age of student "+i);
 				 student[i].setAge(scan.nextInt());
 				 System.out.println(student[i]);
-				 sDetails.putAll((Map<? extends Integer, ? extends Student>) student[i]);
-//				 Object[] s=sDetails.entrySet().toArray();                 
-//				 System.out.println(Arrays.toString(s));
+				 //sDetails.put(1, student[i]);
+
+
 }  
 System.out.println(sDetails);
 
